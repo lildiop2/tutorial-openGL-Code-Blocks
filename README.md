@@ -9,7 +9,7 @@ Vamos usar o terminal para fazer os comandos. É preciso reconfigurar o Code::Bl
 ~~~bash
 sudo apt-get install
 ~~~
-![Alt ou título da imagem](URL da imagem)
+![Passo 1](img/update.png)
 
 * __Passo 2__  Faça "sudo apt-get install codeblocks" para instalar o codeblock
 ~~~bash
@@ -17,7 +17,7 @@ sudo apt-get install codeblocks
 ~~~
 ![Alt ou título da imagem](URL da imagem)
 
-* __Passo 3__  Faça "sudo apt-get install libc6-dbg gdb valgrind"
+* __Passo 3__  Faça "sudo apt-get install libc6-dbg gdb valgrind" para instalar o compilador _**GDB**_
 ~~~bash
 sudo apt-get install libc6-dbg gdb valgrind 
 ~~~
