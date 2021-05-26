@@ -55,3 +55,17 @@ sudo apt-get install libglew-dev
 
 ![Passo 8](img/fim.png)
 
+
+#[Opcional]
+* __Passo 11__ Adicione a biblioteca _**SOIL**_
+~~~bash
+sudo apt-get install libsoil-dev
+~~~
+
+![Passo 11](img/soil.png)
+
+
+* __Passo 12__ Configure Project -->Build Optio --> Debug --> Linker setting e adicione isso no campo **Other linker options:**"-lSOIL -lglut -lGLU -lGLEW -lGL -lm" (sem as aspas).
+
+![Passo 12](img/config.png)
+
